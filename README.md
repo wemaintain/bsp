@@ -1,3 +1,9 @@
+# WeMaintain note
+Tool used to build MxAdvance with Radxa CM3 linux kernel
+- To compile via ``wemaintain/kernel`` : ``./bsp linux rk356x``
+- To compile local-changes: ``./bsp --no-prepare-source linux rk356x``
+- To copy kernel to debos-radxa: ``./mv-debos.sh``
+
 # bsp - Radxa BSP Build Tool
 
 [![Build](https://github.com/radxa-repo/bsp/actions/workflows/build.yml/badge.svg)](https://github.com/radxa-repo/bsp/actions/workflows/build.yml)
